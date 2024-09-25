@@ -1,8 +1,6 @@
 import { crearNuevoDeck, pedirCarta, valorCarta, turnoComputadora, acumularPuntos, crearCarta, determinarGanador } from './usecases';
 import { $$, $ } from './import_utils/jquery';
 
-
-
 (() => {
     'use strict';
 
