@@ -1,0 +1,60 @@
+
+
+/* Estilo general para la tabla */
+table {
+    border-collapse: collapse;
+    background-color: #1e1e1e; /* Color de fondo oscuro */
+    color: #e0e0e0; /* Color de texto claro */
+    font-family: 'Arial', sans-serif;
+    margin: 20px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para las celdas de la tabla */
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+/* Estilo para las cabeceras de columna */
+th {
+    background-color: #2a2a2a; /* Fondo un poco más oscuro */
+    color: #f5f5f5; /* Color de texto más claro */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Estilo para las filas */
+tr {
+    border-bottom: 1px solid #333333;
+}
+
+/* Estilo para el hover en las filas */
+tr:hover {
+    background-color: #3b3b3b; /* Efecto hover */
+}
+
+/* Estilo para las celdas pares */
+tr:nth-child(even) {
+    background-color: #2e2e2e; /* Color alterno para las filas pares */
+}
+
+/* Estilo para enlaces dentro de la tabla */
+a {
+    color: #1abc9c; /* Verde turquesa para enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 585px) {
+    th{
+        display: none;
+    }
+    th, td {
+        padding: 5pxpx; 
+    }
+}
